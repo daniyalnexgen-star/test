@@ -1,0 +1,58 @@
+.sp-dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.sp-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.sp-card h2 {
+    margin-top: 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.sp-metric {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #c9247b;
+    margin: 0;
+}
+
+.sp-calendar table.widefat td,
+.sp-calendar table.widefat th {
+    text-align: left;
+}
+
+.sp-calendar-filter {
+    display: flex;
+    gap: 12px;
+    align-items: flex-end;
+    margin-bottom: 16px;
+}
+
+.sp-calendar-filter label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.sp-calendar-filter input[type="number"] {
+    width: 100px;
+}
+
+.sp-credit-actions {
+    margin-bottom: 24px;
+}
+
+.sp-credit-actions select,
+.sp-credit-actions input {
+    margin-right: 8px;
+}

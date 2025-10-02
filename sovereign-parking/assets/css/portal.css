@@ -1,0 +1,117 @@
+.sp-portal {
+    background: #fff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.06);
+    max-width: 960px;
+    margin: 24px auto;
+}
+
+.sp-portal h2 {
+    margin-top: 0;
+}
+
+.sp-portal-card {
+    border: 1px solid #e1e5ec;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f8f9fd;
+}
+
+.sp-portal-card header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.sp-portal-card .sp-status {
+    background: #c9247b;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+
+.sp-portal-card .sp-cruise {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.sp-portal-card .sp-dates {
+    margin-top: 0;
+    color: #485066;
+}
+
+.sp-portal-form .sp-field {
+    margin-bottom: 14px;
+}
+
+.sp-portal-form label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sp-portal-form input,
+.sp-portal-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccd1db;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.sp-portal-form input:focus,
+.sp-portal-form select:focus {
+    outline: none;
+    border-color: #c9247b;
+    box-shadow: 0 0 0 1px rgba(201,36,123,0.25);
+}
+
+.sp-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.sp-actions .button-primary {
+    background: #c9247b;
+    border-color: #c9247b;
+}
+
+.sp-message {
+    font-weight: 600;
+}
+
+.sp-message.success {
+    color: #1f8f5f;
+}
+
+.sp-message.error {
+    color: #b12335;
+}
+
+.sp-slot-error {
+    color: #b12335;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+.sp-portal-login {
+    max-width: 420px;
+    margin: 40px auto;
+    padding: 24px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 600px) {
+    .sp-actions {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
